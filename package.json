@@ -12,8 +12,8 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
     "start": "next start",
     "deploy": "vercel deploy",
     "deps:upgrade": "[ -z $GITHUB_ACTIONS ] && pnpm up -L notion-client notion-types notion-utils react-notion-x || echo 'Skipping deps:update on CI'",
@@ -43,7 +43,7 @@
     "fathom-client": "^3.4.1",
     "ky": "^1.8.1",
     "lqip-modern": "^2.2.1",
-    "next": "^15.5.3",
+    "next": "16.0.7",
     "notion-client": "^7.7.0",
     "notion-types": "^7.7.0",
     "notion-utils": "^7.7.0",
@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "@fisch0920/config": "^1.2.1",
-    "@next/bundle-analyzer": "^15.3.3",
+    "@next/bundle-analyzer": "^16.0.0",
     "@types/node": "^24.5.2",
     "@types/prismjs": "^1.26.5",
     "@types/react": "^19.1.13",

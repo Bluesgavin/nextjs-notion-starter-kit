@@ -41,5 +41,9 @@ export default withBundleAnalyzer({
   },
 
   // See https://react-tweet.vercel.app/next#troubleshooting
-  transpilePackages: ['react-tweet']
+  transpilePackages: ['react-tweet'],
+
+  // Next.js 16 enables Turbopack by default, but we have a webpack config
+  // Adding empty turbopack config to allow webpack to be used
+  turbopack: {}
 })
