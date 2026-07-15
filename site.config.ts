@@ -19,7 +19,7 @@ export default siteConfig({
   // social usernames (optional)
   // twitter: 'transitive_bs',
   // github: 'transitive-bullshit',
-  linkedin: 'gavinfung12',
+  // linkedin: 'gavinfung12',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
